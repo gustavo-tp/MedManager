@@ -1,9 +1,6 @@
 'use client'
 
-import getDoctorsService from '@/services/getDoctorsService'
 import { ReactNode, useEffect } from 'react'
-
-const doctors = getDoctorsService()
 
 interface AppointmentModalRootProps {
   children: ReactNode

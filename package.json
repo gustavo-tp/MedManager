@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
-    "@types/bootstrap": "^5.2.7",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
