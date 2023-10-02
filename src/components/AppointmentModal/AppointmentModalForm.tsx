@@ -61,7 +61,7 @@ export default function AppointmentModalForm({
 
     if (zipCodeWithoutFormatting.length < 8) return
 
-    const url = `http://viacep.com.br/ws/${zipCodeWithoutFormatting}/json`
+    const url = `https://viacep.com.br/ws/${zipCodeWithoutFormatting}/json`
 
     fetch(url, { mode: 'cors' })
       .then((res) => res.json())
